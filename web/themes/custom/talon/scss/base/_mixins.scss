@@ -1,0 +1,41 @@
+// @file
+// Place your mixins here. Feel free to roll your own mixins.
+
+@mixin divider($color) {
+  margin: 1.25rem 0;
+	height: 1px;
+	background: $color;
+	background: -webkit-gradient(linear, 0 0, 100% 0, from($light-gray), to($light-gray), color-stop(50%, $color));
+}
+
+@mixin dark-links {
+  a {
+    color: $dark-gray;
+
+    &:visited {
+      color: $dark-gray;
+    }
+    &:hover {
+      color: $gold;   
+    }
+    &:active {
+      color: $gray;
+    }
+  }
+}
+
+@mixin white-links {
+  a {
+    color: $white;
+
+    &:visited {
+      color: $light-gray;
+    }
+    &:hover {
+      color: $gold;   
+    }
+    &:active {
+      color: $gold;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{#
+/**
+ * @file
+ * Event View content style used for the event page.
+ */
+#}
+
+<div class="eventview-container">
+  
+    <!--Each Cardlisting -->
+    {% for eventview in eventview %}
+    
+        <div class="eventview-item row">
+        
+        	<div class="eventview-header">
+                <div class="eventview-header-left medium-3 columns">
+                    {{ eventview.date }}</br>
+                    {{ eventview.time }}</br>
+                    {{ eventview.location }}
+                </div>
+                <div class="eventview-header-right medium-9 columns">
+                    <h3><a href="{{ eventview.url }}" class="eventview-title">{{ eventview.title }}</a></h3>
+                    <i class="fi-clipboard-notes large">register</i>
+                </div>
+            </div> <!-- End of eventview header -->
+
+            <div class="eventview-divider"></div>
+
+            <div class="eventview-footer">
+                <div class="eventview-tag medium-6 columns">
+                   <label>Area of Focus:</label> {{ eventview.tag }}
+                </div>
+                <div class="eventview-presenter medium-6 columns">
+                    <label>Presenter(s):</label> {{ eventview.presenter }}
+                </div>
+            </div> <!-- Endo of eventview Footer -->
+           <a href="{{ eventview.url }}" class="eventview-item-link"><span></span></a>  
+            
+        </div> <!-- End of Eventview Item Row -->
+        
+    {% endfor %}
+
+</div> <!-- End of Eventview Container -->
+
+
+
+
+
+
+
+    
+
+
+
+
+
+

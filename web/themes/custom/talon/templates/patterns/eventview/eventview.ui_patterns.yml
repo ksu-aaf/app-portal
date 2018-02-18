@@ -1,0 +1,36 @@
+eventview:
+  label: Event View
+  description: Cards for the event listing page.
+  fields:
+    eventview:
+      type: collection
+      label: Card Listing
+      description: Each slide is a collection of title, subtitle and slide image.
+      preview:
+        -
+          title: The Team-Based Learning Experience
+          date: Mar 14, 2017
+          time: 10:00am
+          location: Kennesaw
+          description: In ac felis quis tortor malesuada pretium. Aenean commodo ligula eget dolor.
+          presenter: Michele DiPietro, Mary Garner, Josie Baudier, 
+          tag: Learning Sciences
+          url: http://gooogle.com
+        -
+          title: Specifications Grading
+          date: Apr 14, 2017
+          time: 12:00pm
+          location: Marietta
+          description: In ac felis quis tortor malesuada pretium. Aenean commodo ligula eget dolor.
+          presenter: Michele DiPietro, Mary Garner, Josie Baudier, 
+          tag: Learning Sciences
+          url: http://gooogle.com
+        -
+          title: Growth Mindset
+          date: Jul 14, 2017
+          time: 3:00pm
+          location: Kennesaw
+          description: In ac felis quis tortor malesuada pretium. Aenean commodo ligula eget dolor.
+          presenter: Michele DiPietro, Mary Garner, Josie Baudier, 
+          tag: Technology Enhanced Learning
+          url: http://gooogle.com

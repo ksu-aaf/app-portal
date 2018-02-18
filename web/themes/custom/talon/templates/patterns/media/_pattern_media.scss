@@ -1,0 +1,20 @@
+.media {
+	overflow: hidden;
+
+	.media-left {
+		@include breakpoint (medium) {
+			display: table-cell;
+			float: left;
+			padding-right: 10px;
+			vertical-align: top;
+		}
+	}
+
+	.media-right {
+		@include breakpoint (medium) {
+			display: table-cell;
+			vertical-align: top;
+		}
+	}
+
+}

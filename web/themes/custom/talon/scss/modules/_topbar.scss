@@ -1,0 +1,9 @@
+
+
+.top-bar {
+	ul li {
+		@include white-links;
+		font-size: 1.25rem;
+		text-transform: uppercase;
+	}
+}

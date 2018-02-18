@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Jumbotron pattern.
+ */
+#}
+
+<div class="reveal" id="tiemodal" data-reveal>
+  <div class="modal-content">
+    <div class="modal-header">
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+      <h4 class="modal-title">{{ title }}</h4>
+    </div>
+    <div class="modal-body lead">
+      <p>{{ body }}</p>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+
+<p><a data-open="tiemodal">Click me for a modal</a></p>
+
+<button class="close-button" data-close aria-label="Close modal" type="button">
+  <span aria-hidden="true">&times;</span>
+</button>
+
+

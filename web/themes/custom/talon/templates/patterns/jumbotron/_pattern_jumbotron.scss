@@ -1,0 +1,38 @@
+.jumbotron {
+  background-color: $black;
+  color: $white;
+  padding: 1rem;
+
+  @include breakpoint (medium) {
+    display: flex;
+    font-size: 1.25rem;
+    padding: 3rem;
+  }
+
+  h1,h2,h3,h4,h5,h6
+   {
+    color: $gold;
+  }
+
+  .jumbo-blockquote {
+    color: $gold;
+    text-align: right;
+    @include breakpoint (medium) {
+      font-size: 2rem;
+    }
+  }
+
+  .name {
+    text-align: right;
+    @include breakpoint (medium) {
+      font-size: 1.5rem;
+    }
+
+  }
+}
+
+.jumbo-second {
+  @include breakpoint (large) {
+    padding-left: 10%;
+  }
+}

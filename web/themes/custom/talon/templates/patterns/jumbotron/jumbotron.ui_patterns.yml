@@ -1,0 +1,34 @@
+jumbotron:
+  label: Jumbotron
+  description: A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.
+  fields:
+    title:
+      type: text
+      label: Title
+      description: Jumbotron title.
+      preview: Hello, world!
+    subtitle:
+      type: text
+      label: Description
+      description: Jumbotron description.
+      preview: This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    link_label:
+      type: text
+      label: Link label
+      description: Jumbotron link label.
+      preview: Learn more
+    link_url:
+      type: text
+      label: URL
+      description: Jumbotron link URL.
+      preview: http://example.com
+    blockquote:
+      type: text
+      label: Blockquote  
+      description: A testimonial from your clients
+      preview: I took part in the course redesign institute and my class has improved so much
+    name:
+      type: text
+      label: Name
+      description: The first and last name of testimonial.
+      preview: Mark Tester, Professor of Art

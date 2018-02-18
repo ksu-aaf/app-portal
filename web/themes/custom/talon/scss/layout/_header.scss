@@ -1,0 +1,30 @@
+// Non-modular or client styles for .l-header region.
+
+// Meta Header
+
+.l-meta-header {
+	@include dark-links;
+	padding: 10px;
+}
+
+
+.l-header {
+	background: $black;
+}
+
+
+// Header Title
+.l-header-title {
+	background: $light-gray;
+	color: $dark-gray;
+	padding: 1.5rem;
+
+	a {
+		color: $dark-gray;
+		&:hover {
+			color: $gray;
+		}
+	}
+
+
+}
