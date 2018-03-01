@@ -6,7 +6,7 @@
 ### Commented out all of these lines. App-Portal needs to commit these 
 ### directories so that all sites will not have to run composer to install new modules.
 #/drush/contrib/
-#/vendor/
+/vendor/
 #/web/core/
 #/web/modules/contrib/
 #/web/themes/contrib/
