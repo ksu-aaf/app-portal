@@ -11,7 +11,7 @@
   ],
     "require": {
     "composer/installers": "^1.0.20",
-    "cweagans/composer-patches": "^1.0",
+    "cweagans/composer-patches": "^1.6",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "drupal/cas": "^1.0@RC",
     "drupal/config_direct_save": "^1.0",
@@ -23,6 +23,7 @@
     "drupal/features": "^3.5",
     "drupal/field_group": "^1.0",
     "drupal/field_permissions": "^1.0@beta",
+    "drupal/foundation_patterns_config": "^1.0@alpha",
     "drupal/google_analytics": "^2.2",
     "drupal/honeypot": "^1.27",
     "drupal/linkit": "^4.3",
@@ -63,7 +64,7 @@
   "conflict": {
       "drupal/drupal": "*"
   },
-  "minimum-stability": "alpha",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "autoload": {
     "classmap": [
@@ -122,6 +123,14 @@
         ".htaccess",
         "web.config"
       ]
+    },
+    "patches": {
+      "drupal/core": {
+        "Views integration of Dateime Range fields": "https://www.drupal.org/files/issues/2786577-8.4.4.patch"
+      },
+      "drupal/context": {
+        "Adds User Condition": "https://www.drupal.org/files/issues/context_user_profile_page_condition.patch"
+      }
     }
   },
   "config": {

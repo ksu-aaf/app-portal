@@ -1,0 +1,18 @@
+name: Foundation Patterns Configuration
+type: module
+description: Pre-packaged configuration to jump start the use of the Foundation Patterns theme.
+# core: 8.x
+package: User interface
+dependencies:
+  - system (>=8.3.0)
+  - components
+  - field_layout
+  - paragraphs
+  - ui_patterns
+  - ui_patterns_layouts
+  - ui_patterns_library
+# Information added by Drupal.org packaging script on 2017-09-15
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'foundation_patterns_config'
+datestamp: 1505498649
