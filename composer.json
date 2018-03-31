@@ -10,6 +10,7 @@
     }
   ],
     "require": {
+    "php": ">=7.0.8",
     "composer/installers": "^1.0.20",
     "cweagans/composer-patches": "^1.6",
     "drupal-composer/drupal-scaffold": "^2.0.1",
@@ -45,6 +46,7 @@
     "drupal/webform_views": "^5.0@alpha",
     "drupal/zurb_foundation": "^6.0",
     "drush/drush": "~8",
+    "pantheon-systems/quicksilver-pushback": "~1",
     "rvtraveller/qs-composer-installer": "^1.1",
     "webflo/drupal-core-strict": "^8"
   },
@@ -139,7 +141,7 @@
     "preferred-install": "dist",
     "sort-packages": true,
     "platform": {
-      "php": "7.0"
+      "php": "7.0.8"
     }
   }
 }

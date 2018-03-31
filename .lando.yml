@@ -2,3 +2,11 @@ name: app-portal
 recipe: drupal8
 config:
   webroot: web
+
+services:
+
+  # Create a php 5.3 instance served by the latest apache with https turned on
+  appserver:
+
+    # PHP version 5.3
+    type: php:7.1
