@@ -5049,17 +5049,17 @@
         },
         {
             "name": "symfony/config",
-            "version": "v3.2.14",
+            "version": "v3.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "e5533fcc0b3dd377626153b2852707878f363728"
+                "reference": "7c2a9d44f4433863e9bca682e7f03609234657f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/e5533fcc0b3dd377626153b2852707878f363728",
-                "reference": "e5533fcc0b3dd377626153b2852707878f363728",
-                "shasum": ""
+                "url": "https://api.github.com/repos/symfony/config/zipball/7c2a9d44f4433863e9bca682e7f03609234657f9",
+                "reference": "7c2a9d44f4433863e9bca682e7f03609234657f9",  
+              "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9",
@@ -5506,6 +5506,7 @@
         {
             "name": "symfony/finder",
             "version": "v3.4.9",
+
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
